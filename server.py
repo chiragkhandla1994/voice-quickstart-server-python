@@ -5,22 +5,22 @@ from twilio.jwt.access_token.grants import VoiceGrant
 from twilio.rest import Client
 from twilio.twiml.voice_response import VoiceResponse
 
-ACCOUNT_SID = 'AC***'
-API_KEY = 'SK***'
-API_KEY_SECRET = '***'
-PUSH_CREDENTIAL_SID = 'CR***'
-APP_SID = 'AP***'
+ACCOUNT_SID = 'AC99924705a64c8c3d581febdab8c0148c'
+API_KEY = 'SK6ec328caa651cb21c150bd6a121bde90'
+API_KEY_SECRET = 'SK6ec328caa651cb21c150bd6a121bde90'
+PUSH_CREDENTIAL_SID = 'CR906123143d9a737fa0a129c328edcadf'
+APP_SID = 'APe621142636d4d3d8d3739a87cf0cd3a3'
 
 """
 Use a valid Twilio number by adding to your account via https://www.twilio.com/console/phone-numbers/verified
 """
-CALLER_NUMBER = '1234567890'
+CALLER_NUMBER = '8488808079'
 
 """
 The caller id used when a client is dialed.
 """
-CALLER_ID = 'client:quick_start'
-IDENTITY = 'alice'
+CALLER_ID = 'chiragkhandla'
+IDENTITY = 'chirag'
 
 
 app = Flask(__name__)
